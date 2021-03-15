@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using UnityEngine;
 using BepInEx.Configuration;
-using ExtraRolesMod;
+
 
 namespace CustomKeyBinds.Tools
 {
@@ -41,31 +41,31 @@ namespace CustomKeyBinds.Tools
             switch (action)
             {
                 case KeyAction.Backward:
-                    ExtraRolesMod.HarmonyMain.backwards.Value = code;
+                    Main.backwards.Value = code;
                     break;
                 case KeyAction.Forward:
-                    ExtraRolesMod.HarmonyMain.forward.Value = code;
+                    Main.forward.Value = code;
                     break;
                 case KeyAction.Left:
-                    ExtraRolesMod.HarmonyMain.left.Value = code;
+                    Main.left.Value = code;
                     break;
                 case KeyAction.Right:
-                    ExtraRolesMod.HarmonyMain.right.Value = code;
+                    Main.right.Value = code;
                     break;
                 case KeyAction.Kill: 
-                    ExtraRolesMod.HarmonyMain.kill.Value = code;
+                    Main.kill.Value = code;
                     break;
                 case KeyAction.Map: 
-                    ExtraRolesMod.HarmonyMain.map.Value = code;
+                    Main.map.Value = code;
                     break;
                 case KeyAction.Tasks: 
-                    ExtraRolesMod.HarmonyMain.tasks.Value = code;
+                    Main.tasks.Value = code;
                     break;
                 case KeyAction.Report: 
-                    ExtraRolesMod.HarmonyMain.report.Value = code;
+                    Main.report.Value = code;
                     break;
                 case KeyAction.Use: 
-                    ExtraRolesMod.HarmonyMain.use.Value = code;
+                    Main.use.Value = code;
                     break;
             }
             keyBinds[action] = code;
