@@ -1,0 +1,9 @@
+forward = Config.Bind("Keybinds",KeyAction.Forward.ToString(), KeyCode.W);
+            left = Config.Bind("Keybinds",KeyAction.Left.ToString(), KeyCode.A);
+            backwards = Config.Bind("Keybinds",KeyAction.Backward.ToString(), KeyCode.S);
+            right = Config.Bind("Keybinds",KeyAction.Right.ToString(), KeyCode.D);
+            use = Config.Bind("Keybinds",KeyAction.Use.ToString(), KeyCode.Space);
+            report = Config.Bind("Keybinds",KeyAction.Report.ToString(), KeyCode.R);
+            kill = Config.Bind("Keybinds",KeyAction.Kill.ToString(), KeyCode.Q);
+            map = Config.Bind("Keybinds",KeyAction.Map.ToString(), KeyCode.Tab);
+            tasks = Config.Bind("Keybinds",KeyAction.Tasks.ToString(), KeyCode.T);
